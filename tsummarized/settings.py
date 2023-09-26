@@ -85,6 +85,23 @@ DATABASES = {
 }
 
 
+STATIC_URL = '/static/'
+STATIC_ROOT = BASE_DIR / 'staticfiles'
+STATICFILES_DIRS = (
+BASE_DIR / 'static',
+)
+
+
+# Upload File
+MEDIA_ROOT = BASE_DIR / 'media'
+MEDIA_URL = '/media/'
+STATIC_URL = '/static/'
+STATIC_ROOT = BASE_DIR / 'staticfiles'
+STATICFILES_DIRS = (
+BASE_DIR / 'static',
+)
+
+
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
 
